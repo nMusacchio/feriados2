@@ -1,0 +1,9 @@
+@media (max-width:767px){
+    .main{
+        padding: 120px;
+    }
+    .theme-selector{
+        top: 20px;
+        right: 20px;
+    }
+}

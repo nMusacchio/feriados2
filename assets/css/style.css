@@ -81,8 +81,11 @@ p{
     position: absolute;
     right: 50px;
     top: 50px;
-    font-size: 18px;
     transition: 0.2s;
+}
+
+.theme-selector p{
+    font-size: 18px;
 }
 
 .theme-selector:hover{
