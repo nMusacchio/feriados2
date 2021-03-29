@@ -37,7 +37,7 @@ $(document).ready(function() {
     let next_holiday_index;
     let first_holiday_index;
     let holidays;
-    $.getJSON(`http://nolaborables.com.ar/api/v2/feriados/${actual_year}`, (data) => {
+    $.getJSON(`https://nolaborables.com.ar/api/v2/feriados/${actual_year}`, (data) => {
         holidays = data;
         next_holiday_index = getNextHoliday(holidays, date.getMonth() + 1, date.getDate());
         first_holiday_index = next_holiday_index;
