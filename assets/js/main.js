@@ -21,7 +21,7 @@ const computeRemainingDays = (holiday, month, day, year) =>{
             days_remaining += new Date(year, m, 0).getDate()
         m++;
     }
-    return days_remaining + holiday.dia
+    return days_remaining + holiday.dia - day;
 }
 
 const changeInfo = (next_holiday, date, actual_year) => {
